@@ -44,7 +44,7 @@ def data_report(path):
 
 
 def main():
-    path = "books/frankenstein.txt"
+    path = input("Enter book path: ")
     data_report(path)
 
 
